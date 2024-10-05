@@ -66,4 +66,4 @@ api.add_resource(main, "/")
 api.add_resource(add_data, "/add_data")
 api.add_resource(get_data, "/get_data")
 
-App.run(debug=True)
+App.run(host='0.0.0.0')
